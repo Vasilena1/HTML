@@ -1,0 +1,74 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    color: #ffbf00;
+    font-size: 2.5em;
+    text-shadow:2px 3px rgba(0, 0, 0, .3);
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+h3{
+    font-size: 1.8em;
+    background-color: #ffbf00;
+    color:white;
+    word-spacing: .2em;
+    padding: .15em;
+    font-variant: small-caps;
+}
+
+h3 span{
+    background-color: #00E9FF;
+    padding: .15em;
+}
+
+p, blockquote{
+    text-align: justify;
+}
+
+p{
+    line-height: 2;
+    text-indent: 2em;
+}
+
+p strong{
+    font-weight: 900;
+    font-stretch: ultra-expanded;
+    color: dimgray;
+}
+
+a{
+    color:#ffbf00;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #00E9FF;
+    text-decoration: underline;
+}
+
+blockquote{
+    font: italic bold 1.1em/1.5em Georgia, serif;
+    background-color: lightgray;
+    border-left: 10px solid #ffbf00;
+    margin: 1.5em 10px;
+    padding: .5em 10px;
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+blockquote:before{
+    color: #ffbf00;
+    content: open-quote;
+    font-size: 3em;
+    line-height: .1em;
+    margin-right: .25em;
+    vertical-align: -.4em;
+}
+
+blockquote p{
+    display: inline;
+}
